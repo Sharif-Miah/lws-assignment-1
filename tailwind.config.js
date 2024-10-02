@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        bounceDown: "bounceDown 2s ease-in-out infinite", // 2 seconds duration, infinite loop
+        bounceDown: "bounceDown 3s ease-in-out infinite", // 2 seconds duration, infinite loop
       },
       keyframes: {
         bounceDown: {

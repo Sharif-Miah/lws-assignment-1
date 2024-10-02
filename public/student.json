@@ -1,0 +1,32 @@
+{
+  "class One": [
+    { "id": 1, "name": "Alice", "grade": "A", "percentage": 85 },
+    { "id": 2, "name": "Bob", "grade": "B", "percentage": 78 },
+    { "id": 3, "name": "Charlie", "grade": "A", "percentage": 92 },
+    { "id": 1, "name": "Alice", "grade": "A", "percentage": 85 },
+    { "id": 2, "name": "Bob", "grade": "B", "percentage": 78 },
+    { "id": 3, "name": "Charlie", "grade": "A", "percentage": 92 },
+    { "id": 1, "name": "Alice", "grade": "A", "percentage": 85 },
+    { "id": 2, "name": "Bob", "grade": "B", "percentage": 78 },
+    { "id": 3, "name": "Charlie", "grade": "A", "percentage": 92 }
+  ],
+  "class Two ": [
+    { "id": 1, "name": "David", "grade": "B", "percentage": 75 },
+    { "id": 2, "name": "Eva", "grade": "A", "percentage": 88 },
+    { "id": 3, "name": "Frank", "grade": "C", "percentage": 65 },
+    { "id": 1, "name": "David", "grade": "B", "percentage": 75 },
+    { "id": 2, "name": "Eva", "grade": "A", "percentage": 88 },
+    { "id": 3, "name": "Frank", "grade": "C", "percentage": 65 },
+    { "id": 1, "name": "David", "grade": "B", "percentage": 75 },
+    { "id": 2, "name": "Eva", "grade": "A", "percentage": 88 },
+    { "id": 3, "name": "Frank", "grade": "C", "percentage": 65 }
+  ],
+  "class Three": [
+    { "id": 1, "name": "Grace", "grade": "A", "percentage": 90 },
+    { "id": 2, "name": "Harry", "grade": "B", "percentage": 80 },
+    { "id": 3, "name": "Ivy", "grade": "A", "percentage": 85 },
+    { "id": 1, "name": "Grace", "grade": "A", "percentage": 90 },
+    { "id": 2, "name": "Harry", "grade": "B", "percentage": 80 },
+    { "id": 3, "name": "Ivy", "grade": "A", "percentage": 85 }
+  ]
+}
