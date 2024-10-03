@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between gap-1">
           <div className="ml-36 mt-20 ">
-            <h2 className="text-[56px] leading-tight text-white font-bold  ">
+            <h2 className="text-[52px] leading-tight text-white font-bold  ">
               The Future of <br /> Learning starts <br /> with students at{" "}
               <br /> the center
             </h2>

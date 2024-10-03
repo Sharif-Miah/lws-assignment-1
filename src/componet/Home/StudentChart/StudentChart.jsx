@@ -1,18 +1,23 @@
 import { useEffect, useState } from "react";
 import { IoIosSearch } from "react-icons/io";
+import StudentTable from "./StudentTable";
 // import StudentData from "../../../../public/student.json";
 
 const StudentChart = () => {
-  const [students, setStudents] = useState();
+  const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    fetch("/public/student.json") // Assuming your JSON file is in the public folder
-      .then((response) => response.json())
-      .then((data) => {
-        setStudents(data);
-        console.log(data);
-      })
-      .catch((error) => console.error("Error fetching JSON:", error));
+    // Simulate fetching data (replace with actual fetch logic)
+    const fetchData = async () => {
+      const data = await fetch("/student.json"); // Replace with your API
+      const result = await data.json();
+      console.log(result);
+      setStudents(result); // Populate the students array
+    };
+
+    fetchData().catch((error) => {
+      console.error("Error fetching student data:", error);
+    });
   }, []);
 
   return (
@@ -33,17 +38,31 @@ const StudentChart = () => {
             </div>
           </div>
         </div>
-        <div>
-          <table border="1" cellPadding="10">
+        <div className="overflow-x-auto">
+          <table className="table">
+            {/* head */}
             <thead>
-              <tr>
+              <tr className="text-white">
                 <th>ID</th>
                 <th>Name</th>
-                <th>Grade</th>
+                <th>class</th>
+                <th>Scores</th>
                 <th>Percentage</th>
               </tr>
             </thead>
-            <tbody></tbody>
+            <tbody className="">
+              {students.length > 0 ? (
+                students.map((student) => (
+                  <StudentTable key={student.id} student={student} />
+                ))
+              ) : (
+                <tr>
+                  <td colSpan="4" className="text-center py-3 px-4">
+                    No students found
+                  </td>
+                </tr>
+              )}
+            </tbody>
           </table>
         </div>
       </div>

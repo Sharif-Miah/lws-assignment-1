@@ -1,32 +1,214 @@
-{
-  "class One": [
-    { "id": 1, "name": "Alice", "grade": "A", "percentage": 85 },
-    { "id": 2, "name": "Bob", "grade": "B", "percentage": 78 },
-    { "id": 3, "name": "Charlie", "grade": "A", "percentage": 92 },
-    { "id": 1, "name": "Alice", "grade": "A", "percentage": 85 },
-    { "id": 2, "name": "Bob", "grade": "B", "percentage": 78 },
-    { "id": 3, "name": "Charlie", "grade": "A", "percentage": 92 },
-    { "id": 1, "name": "Alice", "grade": "A", "percentage": 85 },
-    { "id": 2, "name": "Bob", "grade": "B", "percentage": 78 },
-    { "id": 3, "name": "Charlie", "grade": "A", "percentage": 92 }
-  ],
-  "class Two ": [
-    { "id": 1, "name": "David", "grade": "B", "percentage": 75 },
-    { "id": 2, "name": "Eva", "grade": "A", "percentage": 88 },
-    { "id": 3, "name": "Frank", "grade": "C", "percentage": 65 },
-    { "id": 1, "name": "David", "grade": "B", "percentage": 75 },
-    { "id": 2, "name": "Eva", "grade": "A", "percentage": 88 },
-    { "id": 3, "name": "Frank", "grade": "C", "percentage": 65 },
-    { "id": 1, "name": "David", "grade": "B", "percentage": 75 },
-    { "id": 2, "name": "Eva", "grade": "A", "percentage": 88 },
-    { "id": 3, "name": "Frank", "grade": "C", "percentage": 65 }
-  ],
-  "class Three": [
-    { "id": 1, "name": "Grace", "grade": "A", "percentage": 90 },
-    { "id": 2, "name": "Harry", "grade": "B", "percentage": 80 },
-    { "id": 3, "name": "Ivy", "grade": "A", "percentage": 85 },
-    { "id": 1, "name": "Grace", "grade": "A", "percentage": 90 },
-    { "id": 2, "name": "Harry", "grade": "B", "percentage": 80 },
-    { "id": 3, "name": "Ivy", "grade": "A", "percentage": 85 }
-  ]
-}
+[
+  {
+    "id": 1,
+    "studentclass": "one",
+    "name": "Alice",
+    "score": 90,
+    "percentage": 90
+  },
+  {
+    "id": 2,
+    "studentclass": "one",
+    "name": "Bob",
+    "score": 85,
+    "percentage": 85
+  },
+  {
+    "id": 3,
+    "studentclass": "one",
+    "name": "Charlie",
+    "score": 88,
+    "percentage": 88
+  },
+  {
+    "id": 4,
+    "studentclass": "one",
+    "name": "David",
+    "score": 92,
+    "percentage": 92
+  },
+  {
+    "id": 5,
+    "studentclass": "one",
+    "name": "Eva",
+    "score": 95,
+    "percentage": 95
+  },
+  {
+    "id": 6,
+    "studentclass": "one",
+    "name": "Frank",
+    "score": 78,
+    "percentage": 78
+  },
+  {
+    "id": 7,
+    "studentclass": "one",
+    "name": "Grace",
+    "score": 80,
+    "percentage": 80
+  },
+  {
+    "id": 8,
+    "studentclass": "one",
+    "name": "Hannah",
+    "score": 87,
+    "percentage": 87
+  },
+  {
+    "id": 9,
+    "studentclass": "one",
+    "name": "Ian",
+    "score": 76,
+    "percentage": 76
+  },
+  {
+    "id": 10,
+    "studentclass": "one",
+    "name": "Jack",
+    "score": 82,
+    "percentage": 82
+  },
+
+  {
+    "id": 1,
+    "studentclass": "Two",
+    "name": "Kim",
+    "score": 83,
+    "percentage": 83
+  },
+  {
+    "id": 2,
+    "studentclass": "Two",
+    "name": "Liam",
+    "score": 91,
+    "percentage": 91
+  },
+  {
+    "id": 3,
+    "studentclass": "Two",
+    "name": "Mia",
+    "score": 79,
+    "percentage": 79
+  },
+  {
+    "id": 4,
+    "studentclass": "Two",
+    "name": "Nina",
+    "score": 94,
+    "percentage": 94
+  },
+  {
+    "id": 5,
+    "studentclass": "Two",
+    "name": "Oscar",
+    "score": 88,
+    "percentage": 88
+  },
+  {
+    "id": 6,
+    "studentclass": "Two",
+    "name": "Paul",
+    "score": 75,
+    "percentage": 75
+  },
+  {
+    "id": 7,
+    "studentclass": "Two",
+    "name": "Quinn",
+    "score": 89,
+    "percentage": 89
+  },
+  {
+    "id": 8,
+    "studentclass": "Two",
+    "name": "Rachel",
+    "score": 82,
+    "percentage": 82
+  },
+  {
+    "id": 9,
+    "studentclass": "Two",
+    "name": "Sam",
+    "score": 90,
+    "percentage": 90
+  },
+  {
+    "id": 10,
+    "studentclass": "Two",
+    "name": "Tina",
+    "score": 77,
+    "percentage": 77
+  },
+
+  {
+    "id": 1,
+    "studentclass": "three",
+    "name": "Uma",
+    "score": 92,
+    "percentage": 92
+  },
+  {
+    "id": 2,
+    "studentclass": "three",
+    "name": "Victor",
+    "score": 81,
+    "percentage": 81
+  },
+  {
+    "id": 3,
+    "studentclass": "three",
+    "name": "Will",
+    "score": 87,
+    "percentage": 87
+  },
+  {
+    "id": 4,
+    "studentclass": "three",
+    "name": "Xena",
+    "score": 85,
+    "percentage": 85
+  },
+  {
+    "id": 5,
+    "studentclass": "three",
+    "name": "Yara",
+    "score": 93,
+    "percentage": 93
+  },
+  {
+    "id": 6,
+    "studentclass": "three",
+    "name": "Zane",
+    "score": 76,
+    "percentage": 76
+  },
+  {
+    "id": 7,
+    "studentclass": "three",
+    "name": "Alan",
+    "score": 89,
+    "percentage": 89
+  },
+  {
+    "id": 8,
+    "studentclass": "three",
+    "name": "Bella",
+    "score": 78,
+    "percentage": 78
+  },
+  {
+    "id": 9,
+    "studentclass": "three",
+    "name": "Chris",
+    "score": 84,
+    "percentage": 84
+  },
+  {
+    "id": 10,
+    "studentclass": "three",
+    "name": "Dana",
+    "score": 91,
+    "percentage": 91
+  }
+]
